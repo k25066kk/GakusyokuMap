@@ -3,7 +3,7 @@ from maps import K25066_Osusume, MakibaOsusume, hyatoOsusume, k25058kkOsusume
 data = [
     K25066_Osusume.K25066_osusume(),
     hyatoOsusume.GakushokuSample(),
-    MakibaOsusume.GakushokuSample(),
+    MakibaOsusume.MakibaSample(),
     k25058kkOsusume.GakushokuSample(),
 ]
 for rank, d in enumerate(data, start=1):
